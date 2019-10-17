@@ -1,0 +1,27 @@
+body {
+  background-color: skyblue;
+}
+
+div {
+  background-color: white;
+  color: black;
+  width: 700px;
+  margin: auto;
+  padding: 15px 75px;
+}
+
+h1 {
+  color: skyblue;
+  font-variant: small-caps;
+}
+
+button {
+  background-color: deepskyblue;
+  padding: 5px 8px;
+  color: white;
+}
+
+#output {
+  font-size: 20px;
+  font-style: italic;
+}

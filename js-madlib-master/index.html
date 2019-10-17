@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Mad Lib</title>
+    <link rel="stylesheet" text="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Mad Lib</h1>
+      <hr />
+
+      <h2>Mad Lib Instructions</h2>
+      <p>
+        Fill in all of the input boxes, then click the
+        <em>'Mad Lib'</em> button...
+      </p>
+      <ul>
+        <li>Verb ending in 'ing': <input id='verb-ing' type="text"></li>
+        <li>Plural Noun: <input id='plural-noun' type="text" /></li>
+        <li>Adjective: <input id='adj' type="text" /></li>
+        <li>Present Tense Verb: <input id='present-tense-verb' type="text" /></li>
+        <li>Noun: <input id='noun' type="text" /></li>
+      </ul>
+      <p><button id="madLibBtn">Mad Lib</button></p>
+      <hr />
+
+      <h2>Mad Lib Results</h2>
+      <p id="output"></p>
+    </div>
+
+    <!--Load JavaScript-->
+    <script src="main.js"></script>
+  </body>
+</html>
